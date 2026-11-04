@@ -23,7 +23,7 @@ export const DeleteDepartmentButton = ({ departmentId }: Props) => {
         exit={{ opacity: 0, scale: 0.5 }}
         transition={{ duration: 0.15 }}
       >
-        {isLoading ? <span>Удаление...</span> : <span>Удалить</span>}
+        {isLoading ? <span>Ликвидированние...</span> : <span>Ликвидировать</span>}
       </m.div>
     </m.span>
   );

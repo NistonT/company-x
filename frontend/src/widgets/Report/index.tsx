@@ -1,6 +1,7 @@
 import type { RootState } from "@/app/store/store";
 import { useGetReportsEmployeesQuery } from "@/entities/employees/api/employeesApi";
 import { ReportGenerateForm } from "@/features/report/ui/ReportGenerateForm";
+import { ExportButton } from "@/shared/ui";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-quartz.css";
 import { AgGridReact } from "ag-grid-react";
@@ -33,7 +34,9 @@ export const Report = () => {
     <m.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6 p-6">
       <div className="flex items-center gap-3">
         <h2 className="text-2xl font-bold text-gray-900">Отчет по кадровым перемещениям</h2>
+        <ExportButton type="report" reports={reports} />
       </div>
+
       <ReportGenerateForm />
       {!isLoading && !error && (
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4">

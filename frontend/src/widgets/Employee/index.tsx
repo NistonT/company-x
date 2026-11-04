@@ -1,5 +1,5 @@
 import type { IEmployee } from "@/entities/employees/model/types";
-import { Button, FooterStatistics, SearchTable } from "@/shared/ui";
+import { Button, ExportButton, FooterStatistics, SearchTable } from "@/shared/ui";
 import { AgGridReact } from "ag-grid-react";
 import { Plus } from "lucide-react";
 import { m } from "motion/react";
@@ -34,6 +34,7 @@ export const Employee = () => {
     <m.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6 p-6">
       <div className="flex items-center justify-between">
         <h2 className="text-2xl font-bold text-gray-900">Сотрудники</h2>
+        <ExportButton type="employees" employees={employees} />
         <Button onClick={() => setIsAddModalOpen(true)}>
           <Plus className="w-4 h-4" />
           Добавить сотрудника

@@ -1,5 +1,5 @@
 import { navItems } from "@/shared/consts/navigation";
-import { motion } from "motion/react";
+import { m } from "motion/react";
 import { useLocation } from "react-router";
 import { Logo, NavLink } from "./ui";
 
@@ -7,7 +7,7 @@ export const Header = () => {
   const location = useLocation();
 
   return (
-    <motion.header
+    <m.header
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.4, ease: "easeOut" }}
@@ -29,6 +29,6 @@ export const Header = () => {
           })}
         </nav>
       </div>
-    </motion.header>
+    </m.header>
   );
 };

@@ -1,7 +1,7 @@
 import { useGetAllQuery } from "@/entities/departments/api/departmentsApi";
 import { IDepartment } from "@/entities/departments/model/types";
 import { DepartmentCreateForm } from "@/features/department/ui/DepartmentCreateForm";
-import { FooterStatistics, SearchTable } from "@/shared/ui";
+import { ExportButton, FooterStatistics, SearchTable } from "@/shared/ui";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-quartz.css";
 import { AgGridReact } from "ag-grid-react";
@@ -21,6 +21,7 @@ export const Department = () => {
     <m.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6 p-6">
       <div className="flex items-center gap-3">
         <h2 className="text-2xl font-bold text-gray-950">Подразделения</h2>
+        <ExportButton type="departments" departments={data} />
       </div>
 
       <DepartmentCreateForm />

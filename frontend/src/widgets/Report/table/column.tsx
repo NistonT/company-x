@@ -9,8 +9,6 @@ export const getReportColumns = (): ColDef<ReportRow>[] => [
     field: "type",
     headerName: "Тип перемещения",
     width: 180,
-    rowGroup: true,
-    hide: true,
     cellRenderer: (params: ICellRendererParams<ReportRow>) => {
       const config = typeConfig[params.value as string] || {
         label: params.value,

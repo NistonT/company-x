@@ -11,7 +11,7 @@ export const ShowDeletes = ({ showDeletes, setShowDeletes }: Props) => {
     <label className="inline-flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-lg cursor-pointer hover:bg-gray-50 transition-colors select-none">
       <input type="checkbox" checked={showDeletes} onChange={(e) => setShowDeletes(e.target.checked)} className="w-4 h-4 text-gray-950 rounded" />
       {showDeletes ? <Eye className="w-4 h-4 text-gray-700" /> : <EyeOff className="w-4 h-4 text-gray-500" />}
-      <span className="text-sm text-gray-700 font-medium">Показать удаленные</span>
+      <span className="text-sm text-gray-700 font-medium">Показать ликвидированные</span>
     </label>
   );
 };

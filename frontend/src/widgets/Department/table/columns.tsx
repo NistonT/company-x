@@ -20,8 +20,9 @@ export const columnDefs: ColDef<IDepartment>[] = [
   },
   {
     headerName: "Статус",
+    field: "liquidatedDate",
     width: 200,
-    valueGetter: (params) => (params.data?.liquidatedDate ? `Удален ${params.data.liquidatedDate.split("T")[0]}` : "Активен"),
+    valueGetter: (params) => (params.data?.liquidatedDate ? `Ликвидирован ${params.data.liquidatedDate.split("T")[0]}` : "Активен"),
     cellStyle: (params) => ({
       color: params.data?.liquidatedDate ? "#999" : "#28a745",
     }),

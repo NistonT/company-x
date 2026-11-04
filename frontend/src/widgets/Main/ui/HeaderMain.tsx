@@ -12,7 +12,7 @@ export const HeaderMain = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           {navItems.map((item, index) => {
             const Icon = item.icon;
-            return <CardLink item={item} index={index} Icon={Icon} />;
+            return <CardLink key={item.to} item={item} index={index} Icon={Icon} />;
           })}
         </div>
       </m.div>
