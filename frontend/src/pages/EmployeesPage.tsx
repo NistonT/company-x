@@ -1,5 +1,7 @@
 import { Employee } from "@/widgets";
 
-export const EmployeesPage = () => {
+const EmployeesPage = () => {
   return <Employee />;
 };
+
+export default EmployeesPage;

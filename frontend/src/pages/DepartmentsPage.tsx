@@ -1,5 +1,7 @@
 import { Department } from "@/widgets";
 
-export const DepartmentsPage = () => {
+const DepartmentsPage = () => {
   return <Department />;
 };
+
+export default DepartmentsPage;

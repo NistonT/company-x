@@ -1,6 +1,7 @@
 import { Department } from "./Department";
 import { Employee } from "./Employee";
 import { Header } from "./Header";
-import { Main } from "./Main/index";
-import { Report } from "./Report/index";
-export { Department, Employee, Header, Main, Report };
+import { Loader } from "./Loader";
+import { Main } from "./Main";
+import { Report } from "./Report";
+export { Department, Employee, Header, Loader, Main, Report };

@@ -1,5 +1,7 @@
 import { Report } from "@/widgets";
 
-export const ReportsPage = () => {
+const ReportsPage = () => {
   return <Report />;
 };
+
+export default ReportsPage;
