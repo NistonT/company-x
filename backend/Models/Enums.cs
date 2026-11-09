@@ -1,14 +1,15 @@
-namespace CompanyX;
-
-public enum Gender
+namespace CompanyX
 {
-    Male,
-    Female,
-}
+    public enum Gender
+    {
+        Male,
+        Female,
+    }
 
-public enum MovementType
-{
-    Hire,
-    Transfer,
-    Fire,
+    public enum MovementType
+    {
+        Hire,
+        Transfer,
+        Fire,
+    }
 }
