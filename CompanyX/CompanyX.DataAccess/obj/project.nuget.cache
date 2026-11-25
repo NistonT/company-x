@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "SnfCEdscnWg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\New\\Desktop\\company-x\\CompanyX\\CompanyX.DataAccess\\CompanyX.DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\New\\.nuget\\packages\\microsoft.entityframeworkcore\\11.0.0\\microsoft.entityframeworkcore.11.0.0.nupkg.sha512",
+    "C:\\Users\\New\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\11.0.0\\microsoft.entityframeworkcore.abstractions.11.0.0.nupkg.sha512",
+    "C:\\Users\\New\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\11.0.0\\microsoft.entityframeworkcore.analyzers.11.0.0.nupkg.sha512",
+    "C:\\Users\\New\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\11.0.0\\microsoft.entityframeworkcore.relational.11.0.0.nupkg.sha512",
+    "C:\\Users\\New\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\11.0.0\\microsoft.entityframeworkcore.tools.11.0.0.nupkg.sha512",
+    "C:\\Users\\New\\.nuget\\packages\\microsoft.extensions.caching.memory\\11.0.0\\microsoft.extensions.caching.memory.11.0.0.nupkg.sha512",
+    "C:\\Users\\New\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\11.0.0\\microsoft.extensions.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\New\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\11.0.0\\microsoft.extensions.dependencyinjection.abstractions.11.0.0.nupkg.sha512",
+    "C:\\Users\\New\\.nuget\\packages\\microsoft.extensions.logging\\11.0.0\\microsoft.extensions.logging.11.0.0.nupkg.sha512",
+    "C:\\Users\\New\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\11.0.0\\microsoft.extensions.logging.abstractions.11.0.0.nupkg.sha512",
+    "C:\\Users\\New\\.nuget\\packages\\npgsql\\11.0.0\\npgsql.11.0.0.nupkg.sha512",
+    "C:\\Users\\New\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\11.0.0\\npgsql.entityframeworkcore.postgresql.11.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

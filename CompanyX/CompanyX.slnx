@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="CompanyX.API/CompanyX.API.csproj" />
+  <Project Path="CompanyX.Application/CompanyX.Application.csproj" />
+  <Project Path="CompanyX.Core/CompanyX.Core.csproj" Id="d334147e-509d-4644-b80c-813a8a7c1596" />
+  <Project Path="CompanyX.DataAccess/CompanyX.DataAccess.csproj" />
+</Solution>
