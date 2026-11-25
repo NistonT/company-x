@@ -1,0 +1,240 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v11.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v11.0": {
+      "CompanyX.DataAccess/1.0.0": {
+        "dependencies": {
+          "CompanyX.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "11.0.0",
+          "Microsoft.EntityFrameworkCore.Tools": "11.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "11.0.0"
+        },
+        "runtime": {
+          "CompanyX.DataAccess.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore/11.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "11.0.0",
+          "Microsoft.Extensions.Caching.Memory": "11.0.0",
+          "Microsoft.Extensions.Logging": "11.0.0"
+        },
+        "runtime": {
+          "lib/net11.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.26.53018",
+            "localPath": "Microsoft.EntityFrameworkCore.dll"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/11.0.0": {
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.26.53018",
+            "localPath": "Microsoft.EntityFrameworkCore.Abstractions.dll"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational/11.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "11.0.0",
+          "Microsoft.Extensions.Caching.Memory": "11.0.0",
+          "Microsoft.Extensions.Logging": "11.0.0"
+        },
+        "runtime": {
+          "lib/net11.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.26.53018",
+            "localPath": "Microsoft.EntityFrameworkCore.Relational.dll"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/11.0.0": {
+        "runtime": {
+          "lib/net10.0/EFCore.Tools.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.26.53018",
+            "localPath": "EFCore.Tools.dll"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/11.0.0": {
+        "runtime": {
+          "lib/net11.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.26.53018",
+            "localPath": "Microsoft.Extensions.Caching.Memory.dll"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/11.0.0": {
+        "runtime": {
+          "lib/net11.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.26.53018",
+            "localPath": "Microsoft.Extensions.DependencyInjection.dll"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/11.0.0": {
+        "runtime": {
+          "lib/net11.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.26.53018",
+            "localPath": "Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/11.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "11.0.0"
+        },
+        "runtime": {
+          "lib/net11.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.26.53018",
+            "localPath": "Microsoft.Extensions.Logging.dll"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/11.0.0": {
+        "runtime": {
+          "lib/net11.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.26.53018",
+            "localPath": "Microsoft.Extensions.Logging.Abstractions.dll"
+          }
+        }
+      },
+      "Npgsql/11.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "11.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "11.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/Npgsql.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.0.0",
+            "localPath": "Npgsql.dll"
+          }
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/11.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "11.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "11.0.0",
+          "Npgsql": "11.0.0"
+        },
+        "runtime": {
+          "lib/net11.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.0.0",
+            "localPath": "Npgsql.EntityFrameworkCore.PostgreSQL.dll"
+          }
+        }
+      },
+      "CompanyX.Core/1.0.0": {
+        "runtime": {
+          "CompanyX.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CompanyX.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.EntityFrameworkCore/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1zGKYhZMHG9gIfC89cC2QKM6DpNotDglm+UzYEV9dAWyLwJI8kLx+yfjAQVpC83iUzvr9y+1HJ0HZ8cOaosBXA==",
+      "path": "microsoft.entityframeworkcore/11.0.0",
+      "hashPath": "microsoft.entityframeworkcore.11.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iL0D3Dohk6bNYIHSM3VhvDXrJ+WXs7yMBVv+4L1ozxbsDmohG0T3ogd0mLgWBofu49BHGOgfFKgSGLsOirsjoQ==",
+      "path": "microsoft.entityframeworkcore.abstractions/11.0.0",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.11.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Relational/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yGS+J269mYUl8V17rHWaeFDySoUnGdiugIzszlNZr0F2+JirFatQyw2s2He92wyYIuy/Y3Yv3QLdq/HdTSj7cA==",
+      "path": "microsoft.entityframeworkcore.relational/11.0.0",
+      "hashPath": "microsoft.entityframeworkcore.relational.11.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Tools/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mhTDLNxH23ha4OqeoeUNcom0vMRLWGRtYrVN0HXiWmBnPs5tAIFrupabkidKDgesI8fPQbUiD01J51haSWONRA==",
+      "path": "microsoft.entityframeworkcore.tools/11.0.0",
+      "hashPath": "microsoft.entityframeworkcore.tools.11.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Memory/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w0nn5qRLxZC2T3sSmXj5PhrBFpGFCSFxg7E/zBi4lne0wZcZPY8of3qQDowqGobMZ3PW5qJnM1Q8fmGjL2B6Iw==",
+      "path": "microsoft.extensions.caching.memory/11.0.0",
+      "hashPath": "microsoft.extensions.caching.memory.11.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KygQMITBDDPXw7+AAgdwQvVAaTXuDsc1iCAuvhO73ERxKX+d92cdbgZmpoYF7DIUq2hfs/yO2KD87uIreRy3MA==",
+      "path": "microsoft.extensions.dependencyinjection/11.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.11.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a2c4Kp55miXT6G+DSb75pczXQJHgNMzPyZEyMxrrKxuQrgvctcDWJWD9fVe/uGbQdu4Z0c3B7AVKp1DXmD64nQ==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/11.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.11.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zsse8MOgo0bj2KAEsSkg9WtNAfZbHbTlGeqfhy5PGozomM3zQM0XzumSQzQ0451IWNSJWLqYaSIQEpCi2j1sCA==",
+      "path": "microsoft.extensions.logging/11.0.0",
+      "hashPath": "microsoft.extensions.logging.11.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MTMO2V1eT9Dm5VIpJGLNwIjAjoBErUlfuB+DEaZ0tb8J+Nf/Xlj8he5AztK9p1iOJPIyuBeOrVy2u/CSdsfzPw==",
+      "path": "microsoft.extensions.logging.abstractions/11.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.11.0.0.nupkg.sha512"
+    },
+    "Npgsql/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ozQ8GJcEAiW6XSKz2RUpdJDvM4l380BdHx/MRB7QJHL2cTH/0js7f/cisCaYMrZvVUj4/HIW80UjXxI+ikQQzQ==",
+      "path": "npgsql/11.0.0",
+      "hashPath": "npgsql.11.0.0.nupkg.sha512"
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qis2Q6aRq8AeHhDBqrXialkhpvCS3PgRk3pZFqE4bDFpXa0wFD51pGK95g/9wbZAS2vEJECYR0Txzt+KpfXf4w==",
+      "path": "npgsql.entityframeworkcore.postgresql/11.0.0",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.11.0.0.nupkg.sha512"
+    },
+    "CompanyX.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

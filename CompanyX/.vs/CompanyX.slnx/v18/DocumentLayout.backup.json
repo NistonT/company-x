@@ -1,0 +1,527 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\New\\source\\repos\\CompanyX\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.dataaccess\\entites\\departmententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|solutionrelative:companyx.dataaccess\\entites\\departmententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.core\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|solutionrelative:companyx.core\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B700D731-DBE4-288E-5D33-98AE3ED7DB80}|CompanyX.API\\CompanyX.API.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B700D731-DBE4-288E-5D33-98AE3ED7DB80}|CompanyX.API\\CompanyX.API.csproj|solutionrelative:companyx.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.core\\companyx.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|solutionrelative:companyx.core\\companyx.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.dataaccess\\companyx.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|solutionrelative:companyx.dataaccess\\companyx.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0473911C-6591-DF83-A737-C644F491AD3D}|CompanyX.Application\\CompanyX.Application.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.application\\companyx.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0473911C-6591-DF83-A737-C644F491AD3D}|CompanyX.Application\\CompanyX.Application.csproj|solutionrelative:companyx.application\\companyx.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B700D731-DBE4-288E-5D33-98AE3ED7DB80}|CompanyX.API\\CompanyX.API.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.api\\companyx.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B700D731-DBE4-288E-5D33-98AE3ED7DB80}|CompanyX.API\\CompanyX.API.csproj|solutionrelative:companyx.api\\companyx.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0473911C-6591-DF83-A737-C644F491AD3D}|CompanyX.Application\\CompanyX.Application.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.application\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0473911C-6591-DF83-A737-C644F491AD3D}|CompanyX.Application\\CompanyX.Application.csproj|solutionrelative:companyx.application\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0473911C-6591-DF83-A737-C644F491AD3D}|CompanyX.Application\\CompanyX.Application.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0473911C-6591-DF83-A737-C644F491AD3D}|CompanyX.Application\\CompanyX.Application.csproj|solutionrelative:companyx.application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.dataaccess\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|solutionrelative:companyx.dataaccess\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.dataaccess\\repositories\\employeemovementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|solutionrelative:companyx.dataaccess\\repositories\\employeemovementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.dataaccess\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|solutionrelative:companyx.dataaccess\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.core\\abstractions\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|solutionrelative:companyx.core\\abstractions\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.core\\abstractions\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|solutionrelative:companyx.core\\abstractions\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.core\\abstractions\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|solutionrelative:companyx.core\\abstractions\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.core\\abstractions\\iemployeemovementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|solutionrelative:companyx.core\\abstractions\\iemployeemovementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.core\\abstractions\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|solutionrelative:companyx.core\\abstractions\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.dataaccess\\companyxdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|solutionrelative:companyx.dataaccess\\companyxdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.dataaccess\\configurations\\employeemovementconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|solutionrelative:companyx.dataaccess\\configurations\\employeemovementconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.dataaccess\\configurations\\employeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|solutionrelative:companyx.dataaccess\\configurations\\employeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.dataaccess\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|solutionrelative:companyx.dataaccess\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.dataaccess\\entites\\employeeentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|solutionrelative:companyx.dataaccess\\entites\\employeeentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.dataaccess\\entites\\employeemovemententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9583B02E-86EA-E47A-43B7-A9E411A91B2F}|CompanyX.DataAccess\\CompanyX.DataAccess.csproj|solutionrelative:companyx.dataaccess\\entites\\employeemovemententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.core\\models\\employeemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|solutionrelative:companyx.core\\models\\employeemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.core\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|solutionrelative:companyx.core\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.core\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D334147E-509D-4644-B80C-813A8A7C1596}|CompanyX.Core\\CompanyX.Core.csproj|solutionrelative:companyx.core\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\New\\source\\repos\\CompanyX\\Company.Core\\Models\\EmployeeMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Company.Core\\Models\\EmployeeMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\New\\source\\repos\\CompanyX\\Company.Core\\Models\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Company.Core\\Models\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\New\\source\\repos\\CompanyX\\Company.Core\\Models\\Department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Company.Core\\Models\\Department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\New\\source\\repos\\CompanyX\\Company.Core\\Models\\Enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Company.Core\\Models\\Enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B700D731-DBE4-288E-5D33-98AE3ED7DB80}|CompanyX.API\\CompanyX.API.csproj|c:\\users\\new\\source\\repos\\companyx\\companyx.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B700D731-DBE4-288E-5D33-98AE3ED7DB80}|CompanyX.API\\CompanyX.API.csproj|solutionrelative:companyx.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Application\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "CompanyX.Application\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Application\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "CompanyX.Application\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:34:04.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Application\\Services\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "CompanyX.Application\\Services\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Application\\Services\\DepartmentService.cs",
+              "RelativeToolTip": "CompanyX.Application\\Services\\DepartmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:34:02.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CompanyX.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Application\\CompanyX.Application.csproj",
+              "RelativeDocumentMoniker": "CompanyX.Application\\CompanyX.Application.csproj",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Application\\CompanyX.Application.csproj",
+              "RelativeToolTip": "CompanyX.Application\\CompanyX.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-25T17:33:27.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "CompanyX.DataAccess\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "CompanyX.DataAccess\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:29:53.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\Abstractions\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "CompanyX.Core\\Abstractions\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\Abstractions\\IEmployeeService.cs",
+              "RelativeToolTip": "CompanyX.Core\\Abstractions\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:32:46.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.API\\Program.cs",
+              "RelativeDocumentMoniker": "CompanyX.API\\Program.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.API\\Program.cs",
+              "RelativeToolTip": "CompanyX.API\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T16:43:49.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompanyX.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\CompanyX.Core.csproj",
+              "RelativeDocumentMoniker": "CompanyX.Core\\CompanyX.Core.csproj",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\CompanyX.Core.csproj",
+              "RelativeToolTip": "CompanyX.Core\\CompanyX.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-25T16:47:10.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "CompanyX.Core\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\Models\\Department.cs",
+              "RelativeToolTip": "CompanyX.Core\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:27:49.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentEntity.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\Entites\\DepartmentEntity.cs",
+              "RelativeDocumentMoniker": "CompanyX.DataAccess\\Entites\\DepartmentEntity.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\Entites\\DepartmentEntity.cs",
+              "RelativeToolTip": "CompanyX.DataAccess\\Entites\\DepartmentEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:30:39.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CompanyX.API.csproj",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.API\\CompanyX.API.csproj",
+              "RelativeDocumentMoniker": "CompanyX.API\\CompanyX.API.csproj",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.API\\CompanyX.API.csproj",
+              "RelativeToolTip": "CompanyX.API\\CompanyX.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-25T17:34:08.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompanyX.DataAccess.csproj",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\CompanyX.DataAccess.csproj",
+              "RelativeDocumentMoniker": "CompanyX.DataAccess\\CompanyX.DataAccess.csproj",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\CompanyX.DataAccess.csproj",
+              "RelativeToolTip": "CompanyX.DataAccess\\CompanyX.DataAccess.csproj",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-25T16:58:38.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IDepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\Abstractions\\IDepartmentService.cs",
+              "RelativeDocumentMoniker": "CompanyX.Core\\Abstractions\\IDepartmentService.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\Abstractions\\IDepartmentService.cs",
+              "RelativeToolTip": "CompanyX.Core\\Abstractions\\IDepartmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:32:28.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\Abstractions\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "CompanyX.Core\\Abstractions\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\Abstractions\\IEmployeeRepository.cs",
+              "RelativeToolTip": "CompanyX.Core\\Abstractions\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:31:48.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeMovementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\Repositories\\EmployeeMovementRepository.cs",
+              "RelativeDocumentMoniker": "CompanyX.DataAccess\\Repositories\\EmployeeMovementRepository.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\Repositories\\EmployeeMovementRepository.cs",
+              "RelativeToolTip": "CompanyX.DataAccess\\Repositories\\EmployeeMovementRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:30:57.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IEmployeeMovementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\Abstractions\\IEmployeeMovementRepository.cs",
+              "RelativeDocumentMoniker": "CompanyX.Core\\Abstractions\\IEmployeeMovementRepository.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\Abstractions\\IEmployeeMovementRepository.cs",
+              "RelativeToolTip": "CompanyX.Core\\Abstractions\\IEmployeeMovementRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:32:08.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\Abstractions\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "CompanyX.Core\\Abstractions\\IDepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\Abstractions\\IDepartmentRepository.cs",
+              "RelativeToolTip": "CompanyX.Core\\Abstractions\\IDepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:31:29.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CompanyXDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\CompanyXDbContext.cs",
+              "RelativeDocumentMoniker": "CompanyX.DataAccess\\CompanyXDbContext.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\CompanyXDbContext.cs",
+              "RelativeToolTip": "CompanyX.DataAccess\\CompanyXDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:30:53.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\Repositories\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "CompanyX.DataAccess\\Repositories\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\Repositories\\DepartmentRepository.cs",
+              "RelativeToolTip": "CompanyX.DataAccess\\Repositories\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T16:57:35.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmployeeMovementConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\Configurations\\EmployeeMovementConfiguration.cs",
+              "RelativeDocumentMoniker": "CompanyX.DataAccess\\Configurations\\EmployeeMovementConfiguration.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\Configurations\\EmployeeMovementConfiguration.cs",
+              "RelativeToolTip": "CompanyX.DataAccess\\Configurations\\EmployeeMovementConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:30:50.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmployeeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\Configurations\\EmployeeConfiguration.cs",
+              "RelativeDocumentMoniker": "CompanyX.DataAccess\\Configurations\\EmployeeConfiguration.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\Configurations\\EmployeeConfiguration.cs",
+              "RelativeToolTip": "CompanyX.DataAccess\\Configurations\\EmployeeConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:30:49.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DepartmentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\Configurations\\DepartmentConfiguration.cs",
+              "RelativeDocumentMoniker": "CompanyX.DataAccess\\Configurations\\DepartmentConfiguration.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\Configurations\\DepartmentConfiguration.cs",
+              "RelativeToolTip": "CompanyX.DataAccess\\Configurations\\DepartmentConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:30:46.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EmployeeEntity.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\Entites\\EmployeeEntity.cs",
+              "RelativeDocumentMoniker": "CompanyX.DataAccess\\Entites\\EmployeeEntity.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\Entites\\EmployeeEntity.cs",
+              "RelativeToolTip": "CompanyX.DataAccess\\Entites\\EmployeeEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:30:40.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EmployeeMovementEntity.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\Entites\\EmployeeMovementEntity.cs",
+              "RelativeDocumentMoniker": "CompanyX.DataAccess\\Entites\\EmployeeMovementEntity.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.DataAccess\\Entites\\EmployeeMovementEntity.cs",
+              "RelativeToolTip": "CompanyX.DataAccess\\Entites\\EmployeeMovementEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:30:42.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EmployeeMovement.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\Models\\EmployeeMovement.cs",
+              "RelativeDocumentMoniker": "CompanyX.Core\\Models\\EmployeeMovement.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\Models\\EmployeeMovement.cs",
+              "RelativeToolTip": "CompanyX.Core\\Models\\EmployeeMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:28:54.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "CompanyX.Core\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\Models\\Employee.cs",
+              "RelativeToolTip": "CompanyX.Core\\Models\\Employee.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:28:20.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\Models\\Enums.cs",
+              "RelativeDocumentMoniker": "CompanyX.Core\\Models\\Enums.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.Core\\Models\\Enums.cs",
+              "RelativeToolTip": "CompanyX.Core\\Models\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T17:27:04.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EmployeeMovement.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\Company.Core\\Models\\EmployeeMovement.cs",
+              "RelativeDocumentMoniker": "Company.Core\\Models\\EmployeeMovement.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\Company.Core\\Models\\EmployeeMovement.cs",
+              "RelativeToolTip": "Company.Core\\Models\\EmployeeMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T16:56:56.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\Company.Core\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Company.Core\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\Company.Core\\Models\\Employee.cs",
+              "RelativeToolTip": "Company.Core\\Models\\Employee.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwFsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T16:56:14.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\Company.Core\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Company.Core\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\Company.Core\\Models\\Department.cs",
+              "RelativeToolTip": "Company.Core\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T16:55:41.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\Company.Core\\Models\\Enums.cs",
+              "RelativeDocumentMoniker": "Company.Core\\Models\\Enums.cs",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\Company.Core\\Models\\Enums.cs",
+              "RelativeToolTip": "Company.Core\\Models\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T16:54:37.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CompanyX.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\New\\source\\repos\\CompanyX\\CompanyX.API\\appsettings.Development.json",
+              "RelativeToolTip": "CompanyX.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-25T16:45:38.841Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

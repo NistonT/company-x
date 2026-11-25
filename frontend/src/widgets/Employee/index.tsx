@@ -1,5 +1,6 @@
 import type { IEmployee } from "@/entities/employees/model/types";
 import { Button, ExportButton, FooterStatistics, SearchTable } from "@/shared/ui";
+import { AllCommunityModule } from "ag-grid-community";
 import { AgGridReact } from "ag-grid-react";
 import { Plus } from "lucide-react";
 import { m } from "motion/react";
@@ -53,6 +54,7 @@ export const Employee = () => {
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
           <div className="ag-theme-quartz rounded-lg overflow-hidden border border-gray-200" style={{ height: 600, width: "100%" }}>
             <AgGridReact<IEmployee>
+              modules={[AllCommunityModule]}
               rowData={filteredData}
               columnDefs={columnDefs}
               getRowStyle={getEmployeeRowStyle}
