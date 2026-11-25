@@ -1,0 +1,35 @@
+# Папки сборки
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Тесты
+TestResults/
+coverage/
+
+# Секреты и конфиги с паролями
+*.pfx
+*.snk
+secrets.json
+appsettings.Local.json
+
+# Пакеты NuGet
+packages/
+
+# Системные файлы
+Thumbs.db
+.DS_Store
+
+# Логи
+*.log

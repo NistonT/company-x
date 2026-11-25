@@ -6,13 +6,13 @@
 
 ## Требования к системе
 
-| Компонент                 | Версия    | Ссылка                                |
-| ------------------------- | --------- | ------------------------------------- |
-| **Git**                   | Последняя | https://git-scm.com/downloads         |
-| **Node.js**               | 18+ (LTS) | https://nodejs.org/                   |
-| **.NET SDK**              | 8.0       | https://dotnet.microsoft.com/download |
-| **PostgreSQL**            | 15+       | https://www.postgresql.org/download/  |
-| **VS Code** (опционально) | —         | https://code.visualstudio.com/        |
+| Компонент                 | Версия    | Ссылка                                          |
+| ------------------------- | --------- | ----------------------------------------------- |
+| **Git**                   | Последняя | https://git-scm.com/downloads                   |
+| **Node.js**               | 18+ (LTS) | https://nodejs.org/                             |
+| **.NET SDK**              | 11.0      | https://dotnet.microsoft.com/download           |
+| **Docker Desktop**        | Последняя | https://www.docker.com/products/docker-desktop/ |
+| **VS Code** (опционально) | —         | https://code.visualstudio.com/                  |
 
 ### Проверка установки
 
@@ -23,7 +23,7 @@ git --version
 node --version
 npm --version
 dotnet --version
-psql --version
+docker --version
 ```
 
 Если все команды возвращают версии — можно продолжать.
@@ -43,53 +43,78 @@ cd company-x
 
 ## 🗄️ Шаг 2: Настройка базы данных PostgreSQL
 
-### 2.1 Создание базы данных
+### 2.1 Через Docker:
 
-Откройте **pgAdmin** или консоль `psql`:
+Это поднимет PostgreSQL на порту 5432 с базой CompanyX, пользователем postgres и паролем 123.
 
-```sql
+В корневой папке CompanyX:
+
+```powershell
+cd CompanyX.API
+
+docker-compose up -d
+```
+
+Для остановки:
+
+```powershell
+docker-compose down -v
+```
+
+### 2.2 Через локальный PostgreSQL
+
+Откройте pgAdmin или консоль psql и создайте базу:
+
+```powershell
 CREATE DATABASE "CompanyX";
 ```
 
-### 2.2 Настройка подключения
-
-Откройте файл `backend/appsettings.json` и проверьте строку подключения:
+Откройте файл `CompanyX/CompanyX.API/appsettings.Development.json` и проверьте строку подключения:
 
 ```json
-{
-	"ConnectionStrings": {
-		"DefaultConnection": "Host=localhost;Port=5432;Database=CompanyX;Username=postgres;Password=123"
-	}
-}
+  "ConnectionStrings": {
+    "CompanyXDbContext": "User ID=postgres;Password=123;Host=localhost;Port=5432;Database=CompanyX;"
+  }
 ```
 
 **Замените:**
 
-- `Username` — на вашего пользователя PostgreSQL (обычно `postgres`)
+- `User ID` — на вашего пользователя PostgreSQL (обычно `postgres`)
 - `Password` — на пароль, заданный при установке
 
 ### 2.3 Применение миграций
 
+Убедитесь, что инструмент dotnet-ef установлен:
+
+в корневой папке CompanyX:
+
 ```bash
-cd backend
-dotnet ef database update
+dotnet tool install --global dotnet-ef
+```
+
+Выполните миграции из корневой папки решения:
+
+```bash
+dotnet ef database update -s .\CompanyX.API\ -p .\CompanyX.DataAccess\
 ```
 
 Если миграций нет:
 
 ```bash
-dotnet ef migrations add InitialCreate
-dotnet ef database update
+dotnet ef migrations add init -s .\CompanyX.API\ -p .\CompanyX.DataAccess\
+dotnet ef database update -s .\CompanyX.API\ -p .\CompanyX.DataAccess\
 ```
 
 ---
 
 ## ⚙️ Шаг 3: Запуск бэкенда
 
-### 3.1 Перейдите в папку бэкенда
+### 3.1 Перейдите в папку CompanyX.API
+
+Для начала перейдите в папку CompanyX, далее:
 
 ```bash
-cd backend
+cd CompanyX.API
 ```
 
 ### 3.2 Восстановите пакеты
@@ -155,7 +180,7 @@ npm run dev
 ### Терминал 1 — Бэкенд
 
 ```bash
-cd backend
+cd ./CompanyX
 dotnet watch run
 ```
 
@@ -181,7 +206,7 @@ npm run dev
 **Решение:**
 
 1. Убедитесь, что PostgreSQL запущен (служба `postgresql-x64-15` в `services.msc`)
-2. Проверьте `appsettings.json` — правильные ли логин/пароль/порт
+2. Проверьте `appsettings.Development.json` — правильные ли логин/пароль/порт
 3. Попробуйте подключиться через pgAdmin вручную
 
 ---
@@ -288,7 +313,8 @@ git clone https://github.com/NistonT/company-x.git
 cd company-x
 
 # 2. Терминал 1 — Бэкенд
-cd backend
+cd CompanyX
+cd CompanyX.API
 dotnet watch run
 
 # 3. Терминал 2 — Фронтенд
